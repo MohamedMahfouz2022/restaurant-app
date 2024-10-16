@@ -41,7 +41,7 @@ const NavMobile = ({ containerStyles, iconStyles, linkStyles }) => {
             <IoCloseOutline />
           </div>
           {/* logo */}
-          <Link href="/">
+          <Link href="#home">
             <Image src="/logo.svg" width={90} height={36} alt="" />
           </Link>
           {/* links */}
@@ -52,7 +52,7 @@ const NavMobile = ({ containerStyles, iconStyles, linkStyles }) => {
                   key={index}
                   to={link.path}
                   offset={link.offset}
-                  smooth={false}
+                  smooth="true"
                   className="flex items-center gap-x-3"
                 >
                   <div className={`${iconStyles}`}>{link.icon}</div>

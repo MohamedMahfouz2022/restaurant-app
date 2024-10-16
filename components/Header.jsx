@@ -34,7 +34,7 @@ const Header = () => {
         {/* logo -- nav -- btn */}
         <div className="w-full flex justify-between items-center">
           {/* logo */}
-          <Link href="/">
+          <Link href="#home">
             <Image src="/logo.svg" width={75} height={30} alt="" />
           </Link>
           {/* Nav */}
@@ -43,7 +43,7 @@ const Header = () => {
             linkStyles="capitalize"
           />
           {/* btn */}
-          <ScrollLink to="reservation" smooth={true}>
+          <ScrollLink to="reservation" smooth="true">
             <Button variant="orange" size="sm">
               Book a table
             </Button>
