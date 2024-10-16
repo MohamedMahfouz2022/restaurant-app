@@ -7,7 +7,7 @@ import { Button } from "./ui/button";
 const Hero = () => {
   return (
     <section
-      className=" bg-hero bg-no-repeat relative xl:bg-cover  xl:h-[750px] py-20 pb-10 xl:py-0 "
+      className=" bg-hero bg-no-repeat relative xl:bg-cover  xl:h-[720px] py-20 pb-10 xl:py-0 "
       id="home"
     >
       <div className="container mx-auto">
@@ -85,8 +85,8 @@ const Hero = () => {
         <Image
           src="/hero/coffee.png"
           alt=""
-          width={300}
-          height={250}
+          width={200}
+          height={150}
           quality={80}
         />
       </motion.div>
