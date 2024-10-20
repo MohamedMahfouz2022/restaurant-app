@@ -10,7 +10,7 @@ const Reservation = () => {
       id="reservation"
     >
       <motion.div
-        className="bg-black w-full xl:max-w-[860px] min-h-[500] p-10 xl:p-12"
+        className="bg-black w-full xl:max-w-[860px] min-h-[500] p-10 xl:p-12 xl:mb-8"
         variants={fadeIn("up", 0.2)}
         initial="hidden"
         whileInView={"show"}
